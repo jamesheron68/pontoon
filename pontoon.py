@@ -91,7 +91,7 @@ if player_pontoon or dealer_pontoon:
 
     exit()
 
-# Flag for 5 card trick
+# Flag for 5 card trick condition
 five_card_trick = False
 dealer_five_card_trick = False
 
