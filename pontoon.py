@@ -23,7 +23,7 @@ def score_hand(hand):
         else:
              score += int(rank)
 
-    # Handle ace is high or low option
+    # Handle ace is high or low value option
     while score > 21 and aces > 0:
         score -= 10
         aces -= 1
